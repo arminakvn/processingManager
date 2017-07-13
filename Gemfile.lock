@@ -1,0 +1,30 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    et-orbi (1.0.5)
+      tzinfo
+    ffi (1.9.18-x64-mingw32)
+    mixlib-shellout (2.2.7-universal-mingw32)
+      win32-process (~> 0.8.2)
+      wmi-lite (~> 1.0)
+    rufus-scheduler (3.4.2)
+      et-orbi (~> 1.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2017.2)
+      tzinfo (>= 1.0.0)
+    win32-process (0.8.3)
+      ffi (>= 1.0.0)
+    wmi-lite (1.0.0)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  mixlib-shellout
+  rufus-scheduler
+  tzinfo-data
+
+BUNDLED WITH
+   1.15.1
